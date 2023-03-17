@@ -1,6 +1,6 @@
 import { API_URL } from "../../settings.js"
 import { fetchGetJson } from "../../utils.js"
-const URL = API_URL + "/cars"
+const URL = API_URL + "cars"
 
 export async function initCars() {
   const tbody = document.getElementById("table-rows");
